@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		87731B462BD738740013CD5E /* QuestyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87731B452BD738740013CD5E /* QuestyApp.swift */; };
-		87731B482BD738740013CD5E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87731B472BD738740013CD5E /* ContentView.swift */; };
-		87731B4A2BD738760013CD5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87731B492BD738760013CD5E /* Assets.xcassets */; };
-		87731B4D2BD738760013CD5E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87731B4C2BD738760013CD5E /* Preview Assets.xcassets */; };
-		87731B582BD738790013CD5E /* QuestyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87731B572BD738790013CD5E /* QuestyTests.swift */; };
-		87731B622BD738790013CD5E /* QuestyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87731B612BD738790013CD5E /* QuestyUITests.swift */; };
-		87731B642BD738790013CD5E /* QuestyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87731B632BD738790013CD5E /* QuestyUITestsLaunchTests.swift */; };
+		87731B752BD738F00013CD5E /* Quest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87731B742BD738F00013CD5E /* Quest.swift */; };
+		87731B772BD738FB0013CD5E /* Subtask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87731B762BD738FB0013CD5E /* Subtask.swift */; };
+		87731B792BD739050013CD5E /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87731B782BD739050013CD5E /* Enums.swift */; };
+		87731B7B2BD739100013CD5E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87731B7A2BD739100013CD5E /* ContentView.swift */; };
+		87731B7D2BD739180013CD5E /* QuestDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87731B7C2BD739180013CD5E /* QuestDetailView.swift */; };
+		87731B7F2BD7391F0013CD5E /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87731B7E2BD7391F0013CD5E /* NotificationManager.swift */; };
+		87731B832BD739D80013CD5E /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87731B822BD739D80013CD5E /* App.swift */; };
+		87731B852BD73C260013CD5E /* AddQuestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87731B842BD73C260013CD5E /* AddQuestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,16 +36,16 @@
 
 /* Begin PBXFileReference section */
 		87731B422BD738740013CD5E /* Questy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Questy.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		87731B452BD738740013CD5E /* QuestyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestyApp.swift; sourceTree = "<group>"; };
-		87731B472BD738740013CD5E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		87731B492BD738760013CD5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		87731B4C2BD738760013CD5E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		87731B4E2BD738760013CD5E /* Questy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Questy.entitlements; sourceTree = "<group>"; };
 		87731B532BD738790013CD5E /* QuestyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuestyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		87731B572BD738790013CD5E /* QuestyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestyTests.swift; sourceTree = "<group>"; };
 		87731B5D2BD738790013CD5E /* QuestyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuestyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		87731B612BD738790013CD5E /* QuestyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestyUITests.swift; sourceTree = "<group>"; };
-		87731B632BD738790013CD5E /* QuestyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		87731B742BD738F00013CD5E /* Quest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quest.swift; sourceTree = "<group>"; };
+		87731B762BD738FB0013CD5E /* Subtask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subtask.swift; sourceTree = "<group>"; };
+		87731B782BD739050013CD5E /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		87731B7A2BD739100013CD5E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		87731B7C2BD739180013CD5E /* QuestDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestDetailView.swift; sourceTree = "<group>"; };
+		87731B7E2BD7391F0013CD5E /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		87731B822BD739D80013CD5E /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		87731B842BD73C260013CD5E /* AddQuestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddQuestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,9 +76,11 @@
 		87731B392BD738740013CD5E = {
 			isa = PBXGroup;
 			children = (
-				87731B442BD738740013CD5E /* Questy */,
-				87731B562BD738790013CD5E /* QuestyTests */,
-				87731B602BD738790013CD5E /* QuestyUITests */,
+				87731B822BD739D80013CD5E /* App.swift */,
+				87731B702BD738B20013CD5E /* Models */,
+				87731B712BD738BA0013CD5E /* Views */,
+				87731B722BD738C30013CD5E /* Notification */,
+				87731B732BD738CE0013CD5E /* Utilities */,
 				87731B432BD738740013CD5E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,41 +95,39 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		87731B442BD738740013CD5E /* Questy */ = {
+		87731B702BD738B20013CD5E /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				87731B452BD738740013CD5E /* QuestyApp.swift */,
-				87731B472BD738740013CD5E /* ContentView.swift */,
-				87731B492BD738760013CD5E /* Assets.xcassets */,
-				87731B4E2BD738760013CD5E /* Questy.entitlements */,
-				87731B4B2BD738760013CD5E /* Preview Content */,
+				87731B742BD738F00013CD5E /* Quest.swift */,
+				87731B762BD738FB0013CD5E /* Subtask.swift */,
+				87731B782BD739050013CD5E /* Enums.swift */,
 			);
-			path = Questy;
+			path = Models;
 			sourceTree = "<group>";
 		};
-		87731B4B2BD738760013CD5E /* Preview Content */ = {
+		87731B712BD738BA0013CD5E /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				87731B4C2BD738760013CD5E /* Preview Assets.xcassets */,
+				87731B7A2BD739100013CD5E /* ContentView.swift */,
+				87731B7C2BD739180013CD5E /* QuestDetailView.swift */,
+				87731B842BD73C260013CD5E /* AddQuestView.swift */,
 			);
-			path = "Preview Content";
+			path = Views;
 			sourceTree = "<group>";
 		};
-		87731B562BD738790013CD5E /* QuestyTests */ = {
+		87731B722BD738C30013CD5E /* Notification */ = {
 			isa = PBXGroup;
 			children = (
-				87731B572BD738790013CD5E /* QuestyTests.swift */,
+				87731B7E2BD7391F0013CD5E /* NotificationManager.swift */,
 			);
-			path = QuestyTests;
+			path = Notification;
 			sourceTree = "<group>";
 		};
-		87731B602BD738790013CD5E /* QuestyUITests */ = {
+		87731B732BD738CE0013CD5E /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				87731B612BD738790013CD5E /* QuestyUITests.swift */,
-				87731B632BD738790013CD5E /* QuestyUITestsLaunchTests.swift */,
 			);
-			path = QuestyUITests;
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,6 +198,7 @@
 				TargetAttributes = {
 					87731B412BD738740013CD5E = {
 						CreatedOnToolsVersion = 15.3;
+						LastSwiftMigration = 1530;
 					};
 					87731B522BD738790013CD5E = {
 						CreatedOnToolsVersion = 15.3;
@@ -233,8 +235,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87731B4D2BD738760013CD5E /* Preview Assets.xcassets in Resources */,
-				87731B4A2BD738760013CD5E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +259,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87731B482BD738740013CD5E /* ContentView.swift in Sources */,
-				87731B462BD738740013CD5E /* QuestyApp.swift in Sources */,
+				87731B7F2BD7391F0013CD5E /* NotificationManager.swift in Sources */,
+				87731B752BD738F00013CD5E /* Quest.swift in Sources */,
+				87731B792BD739050013CD5E /* Enums.swift in Sources */,
+				87731B852BD73C260013CD5E /* AddQuestView.swift in Sources */,
+				87731B7B2BD739100013CD5E /* ContentView.swift in Sources */,
+				87731B832BD739D80013CD5E /* App.swift in Sources */,
+				87731B7D2BD739180013CD5E /* QuestDetailView.swift in Sources */,
+				87731B772BD738FB0013CD5E /* Subtask.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +274,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87731B582BD738790013CD5E /* QuestyTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +281,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87731B622BD738790013CD5E /* QuestyUITests.swift in Sources */,
-				87731B642BD738790013CD5E /* QuestyUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +423,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = Questy/Questy.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -436,6 +440,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ACH.Questy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -445,6 +450,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = Questy/Questy.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
